@@ -2,6 +2,7 @@ body{
     font-family: "Fira Sans", serif;
     width: 80%;
     margin:auto;
+    background-color:rgba(227, 219, 219, 0.7);
 }
 .nav{
     display: flex;
@@ -117,9 +118,11 @@ h3{
 .Recent-container{
     display: flex;
     gap: 32px;
+    background-color: white;
+    padding:48px;
 }
 .ib{
-    border-radius: 12px;
+    border-radius: 16px;
 }
 .time{
     display: flex;
@@ -139,4 +142,7 @@ h3{
     flex-direction: row-reverse;
     margin-top: 80px;
     margin-bottom: 80px;
+    background-color: white;
+    padding:48px;
+
 }
