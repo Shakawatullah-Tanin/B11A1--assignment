@@ -1,0 +1,136 @@
+body{
+    font-family: "Fira Sans", serif;
+    width: 80%;
+    margin:auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(198, 228, 214);
+    margin-top: 80px;
+    padding: 80px;
+    border-radius:16px;
+}
+.banner-img{
+    background-image: url("../B11A1--assignment-1/assets/hero.png");
+    width: 400px;
+    height: 480px;
+}
+.button-1{
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    border-style: none;
+
+}
+h3{
+    width:600px;
+    font-size:56px;
+    font-weight: 700;
+}
+#name{
+    font-size: 32px;
+    font-weight: 700;
+}
+#button-2{
+    padding: 8px;
+    color: darkgreen;
+    font-size: 24px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#opacity{
+    opacity: 0.5;
+}
+.card-1{
+    box-shadow:0 4px 8px 0 ;
+    width:420px;
+    height:250px;
+    background-color: rgb(141, 213, 237);
+    padding: 20px;
+    gap: 12px;
+}
+#bttn-3{
+    background-color: rgb(66, 148, 242);
+    color: white;
+    border-radius:4px;
+    font-size: 16px;
+    font-weight: 550;
+    border-style: none;
+    align-items: center;
+    padding: 12px;
+}
+
+#bttn-4{
+    background-color:rgb(134, 224, 134);
+    color: white;
+    border-radius:4px;
+    font-size: 16px;
+    font-weight: 550;
+    border-style: none;
+    align-items: center;
+    padding: 12px;
+}
+.card-2{
+    box-shadow: 0 4px 8px 0;
+    width: 420px;
+    height:250px;
+    background-color: rgb(142, 235, 142);
+    padding: 20px;
+    gap: 12px;
+}
+#bttn-5{
+    color: white;
+    border-radius:4px;
+    background-color: rgb(223, 179, 97);
+    font-size: 16px;
+    font-weight: 550;
+    border-style: none;
+    align-items: center;
+    padding: 12px;
+}
+.card-3{
+    box-shadow: 0 4px 8px 0;
+    width: 420px;
+    height:250px;
+    background-color:rgb(244, 193, 99);
+    padding: 20px;
+    gap: 12px;
+}
+.card-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    border-style: none;
+    border-radius: 15px;
+}
+#mrg{
+    padding: 32px 0;
+}
+.Recent-container{
+    display: flex;
+    gap: 32px;
+}
+.ib{
+    border-radius: 12px;
+}
+.time{
+    display: flex;
+    gap: 40px;
+}
+.btn-secondary{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+}
+.rd{
+    width:700px;
+}
