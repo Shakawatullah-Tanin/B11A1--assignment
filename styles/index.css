@@ -18,11 +18,11 @@ body{
     padding: 80px;
     border-radius:16px;
 }
-.banner-img{
+/* .banner-img{
     background-image: url("../B11A1--assignment-1/assets/hero.png");
     width: 400px;
     height: 480px;
-}
+} */
 .button-1{
     background-color: green;
     color: white;
