@@ -207,3 +207,21 @@ h3{
     border: 1px solid;
     margin: 24px;
 }
+.chief-adviser-speach{
+
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(176, 221, 244, 0.15);
+    background-color: white;
+    margin-top:32px;
+    background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding:32px 24px 32px 24px ;
+    border-radius: 16px;
+    background-position: 24px;
+    background-position-y: 24px;
+}
+#Adviser{
+    font-size:16px;
+    font-weight: 700px;
+}
