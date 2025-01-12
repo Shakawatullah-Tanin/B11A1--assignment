@@ -14,15 +14,9 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(198, 228, 214);
-    margin-top: 80px;
-    padding: 80px;
+    padding: 80px 100px 80px 100px;
     border-radius:16px;
 }
-/* .banner-img{
-    background-image: url("../B11A1--assignment-1/assets/hero.png");
-    width: 400px;
-    height: 480px;
-} */
 .button-1{
     background-color: green;
     color: white;
@@ -51,12 +45,13 @@ h3{
     opacity: 0.5;
 }
 .card-1{
-    box-shadow:0 4px 8px 0 ;
+    box-sizing: border-box;
     width:420px;
-    height:250px;
+    height:325px;
     background-color: rgb(141, 213, 237);
-    padding: 20px;
+    padding: 24px;
     gap: 12px;
+    border-radius:16px;
 }
 #bttn-3{
     background-color: rgb(66, 148, 242);
@@ -80,12 +75,13 @@ h3{
     padding: 12px;
 }
 .card-2{
-    box-shadow: 0 4px 8px 0;
+    box-sizing: border-box;
     width: 420px;
-    height:250px;
+    height:325px;
     background-color: rgb(142, 235, 142);
-    padding: 20px;
+    padding: 24px;
     gap: 12px;
+    border-radius:16px;
 }
 #bttn-5{
     color: white;
@@ -98,12 +94,13 @@ h3{
     padding: 12px;
 }
 .card-3{
-    box-shadow: 0 4px 8px 0;
+    box-sizing: border-box;
     width: 420px;
-    height:250px;
-    background-color:rgb(244, 193, 99);
-    padding: 20px;
+    height:325px;
+    background-color:rgb(246, 199, 113);
+    padding: 24px;
     gap: 12px;
+    border-radius:16px;
 }
 .card-container{
     display:flex;
@@ -113,13 +110,16 @@ h3{
     border-radius: 15px;
 }
 #mrg{
-    padding: 32px 0;
+    font-weight: 400;
+    padding: 32px;
+    font-size: 16px;
 }
 .Recent-container{
     display: flex;
     gap: 32px;
     background-color: white;
     padding:48px;
+    border-radius: 16px;
 }
 .ib{
     border-radius: 16px;
@@ -144,5 +144,66 @@ h3{
     margin-bottom: 80px;
     background-color: white;
     padding:48px;
-
+    border-radius: 16px;
+}
+.piller{
+    font-size: 56px;
+    width:1280px;
+    font-weight:800px;
+}
+.piller-card-section{
+    display: flex;
+    gap:34px;
+}
+.pi-card-1{
+    box-sizing: border-box;
+    width: 900px;
+    height:250px;
+    background-color: white;
+    font-size: 16px;
+    font-weight:400;
+    padding:16px;
+    border-radius: 16px;
+    border-style: none;
+    border: 1px solid;
+    margin: 24px;
+}
+.pi-card-2{
+    box-sizing: border-box;
+    width: 900px;
+    height:250px;
+    background-color: white;
+    font-size: 16px;
+    font-weight:400;
+    padding:16px;
+    border-radius: 16px;
+    border-style: none;
+    border: 1px solid;
+    margin: 24px;
+}
+.pi-card-3{
+    box-sizing: border-box;
+    width: 900px;
+    height:250px;
+    background-color: white;
+    font-size: 16px;
+    font-weight:400;
+    padding:16px;
+    border-radius: 16px;
+    border-style: none;
+    border: 1px solid;
+    margin: 24px;
+}
+.pi-card-4{
+    box-sizing: border-box;
+    width:900px;
+    height:250px;
+    background-color: white;
+    font-size: 16px;
+    font-weight:400;
+    padding:16px;
+    border-radius: 16px;
+    border-style: none;
+    border: 1px solid;
+    margin: 24px;
 }
