@@ -114,6 +114,7 @@ h3{
 }
 .time{
     display: flex;
+    gap: 5px;
 }
 .btn-secondary{
     padding: 12px;
@@ -215,34 +216,32 @@ h3{
 #donate-description{
     font-size: 16px;
     font-weight: 400;
+
 }
 .amount-card{
     display: flex;
+    justify-content:space-between;
     flex-direction:row;
-    gap:50px;
+    gap:5px;
 }
 .selcted-card{
     box-sizing: border-box;
     border: 1px solid rgb(155, 196, 235);
     background-color: white;
     text-align: center;
-    padding: 32px;
-    width:200px;
-    height: 100px;
+    padding: 32px 60px;
     border-radius: 16px;
 }
 .selcted-card-2{
     box-sizing: border-box;
     background-color: aquamarine;
     text-align: center;
-    padding: 32px;
-    width:200px;
-    height: 100px;
+    padding: 32px 60px;
     border-radius: 16px;  
 }
 .sec-donate{
-    margin-top:32px;
-    margin-left:170px;
+    margin: 24px auto;
+
 }
 #subscribe{
     background-color:blue;
@@ -268,17 +267,16 @@ h3{
 #foot-title{
     font-size: 24px;
 }
-.satellite{
-    border: 1px solid red;
-}
 .my-container{
     width: 100%;
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     justify-items: center;
+    padding:20px;
     gap: 16px;
-    padding: 0px 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 0px ;
 }
 .my-img{
     width: fit-content;
