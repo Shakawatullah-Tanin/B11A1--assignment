@@ -10,11 +10,12 @@ body{
     align-items: center;
 }
 .banner{
-    display: flex;
+    display:grid;
+    grid-template-columns:1fr 1fr;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(198, 228, 214);
-    padding: 80px 100px 80px 100px;
+    padding:80px 40px ;
     border-radius:16px;
 }
 .button-1{
@@ -23,7 +24,6 @@ body{
     padding: 12px;
     border-radius: 4px;
     border-style: none;
-
 }
 h3{
     width:600px;
@@ -46,15 +46,12 @@ h3{
 }
 .card-1{
     box-sizing: border-box;
-    width:420px;
-    height:325px;
     background-color: rgb(141, 213, 237);
-    padding: 24px;
-    gap: 12px;
+    padding: 12px 8px;
     border-radius:16px;
 }
 #bttn-3{
-    background-color: rgb(66, 148, 242);
+    background-color:rgb(134, 224, 134);
     color: white;
     border-radius:4px;
     font-size: 16px;
@@ -62,6 +59,7 @@ h3{
     border-style: none;
     align-items: center;
     padding: 12px;
+    margin-top: 20px;
 }
 
 #bttn-4{
@@ -76,11 +74,8 @@ h3{
 }
 .card-2{
     box-sizing: border-box;
-    width: 420px;
-    height:325px;
     background-color: rgb(142, 235, 142);
-    padding: 24px;
-    gap: 12px;
+    padding: 12px 8px;
     border-radius:16px;
 }
 #bttn-5{
@@ -95,15 +90,15 @@ h3{
 }
 .card-3{
     box-sizing: border-box;
-    width: 420px;
-    height:325px;
     background-color:rgb(246, 199, 113);
-    padding: 24px;
-    gap: 12px;
+    padding: 12px 8px;
     border-radius:16px;
 }
 .card-container{
-    display:flex;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
     justify-content:space-between;
     align-items: flex-start;
     border-style: none;
@@ -111,7 +106,7 @@ h3{
 }
 #mrg{
     font-weight: 400;
-    padding: 32px;
+    padding:32px 0px;
     font-size: 16px;
 }
 .ib{
@@ -140,17 +135,14 @@ h3{
 }
 .piller{
     font-size: 56px;
-    width:1280px;
     font-weight:800px;
 }
 .piller-card-section{
     display: flex;
-    gap:34px;
+    gap: 10px;
 }
 .pi-card-1{
     box-sizing: border-box;
-    width: 900px;
-    height:250px;
     background-color: white;
     font-size: 16px;
     font-weight:400;
@@ -158,12 +150,10 @@ h3{
     border-radius: 16px;
     border-style: none;
     border: 1px solid;
-    margin: 24px;
+    margin: 5px;
 }
 .pi-card-2{
     box-sizing: border-box;
-    width: 900px;
-    height:250px;
     background-color: white;
     font-size: 16px;
     font-weight:400;
@@ -171,12 +161,10 @@ h3{
     border-radius: 16px;
     border-style: none;
     border: 1px solid;
-    margin: 24px;
+    margin: 5px;
 }
 .pi-card-3{
     box-sizing: border-box;
-    width: 900px;
-    height:250px;
     background-color: white;
     font-size: 16px;
     font-weight:400;
@@ -184,12 +172,10 @@ h3{
     border-radius: 16px;
     border-style: none;
     border: 1px solid;
-    margin: 24px;
+    margin: 5px;
 }
 .pi-card-4{
     box-sizing: border-box;
-    width:900px;
-    height:250px;
     background-color: white;
     font-size: 16px;
     font-weight:400;
@@ -197,7 +183,10 @@ h3{
     border-radius: 16px;
     border-style: none;
     border: 1px solid;
-    margin: 24px;
+    margin: 5px;
+}
+.my-text{
+    font-size: 14px;
 }
 .chief-adviser-speach{
 
@@ -280,11 +269,21 @@ h3{
     font-size: 24px;
 }
 .satellite{
-    width: 100%;
     border: 1px solid red;
 }
 .my-container{
+    width: 100%;
     display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    justify-items: center;
+    gap: 16px;
+    padding: 0px 40px;
+}
+.my-img{
+    width: fit-content;
+    /* height: 100%; */
+    border-radius: 16px;
 }
 .jazzera-img{
     width: fit-content;
