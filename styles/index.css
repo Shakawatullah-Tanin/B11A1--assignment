@@ -114,19 +114,11 @@ h3{
     padding: 32px;
     font-size: 16px;
 }
-.Recent-container{
-    display: flex;
-    gap: 32px;
-    background-color: white;
-    padding:48px;
-    border-radius: 16px;
-}
 .ib{
     border-radius: 16px;
 }
 .time{
     display: flex;
-    gap: 40px;
 }
 .btn-secondary{
     padding: 12px;
@@ -216,12 +208,84 @@ h3{
     margin-top:32px;
     background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
     background-repeat: no-repeat;
-    padding:32px 24px 32px 24px ;
+    padding:50px 24px 50px 24px ;
     border-radius: 16px;
     background-position: 24px;
-    background-position-y: 24px;
+    background-position-y:24px;
 }
 #Adviser{
     font-size:16px;
     font-weight: 700px;
+}
+.Donate-today{
+    text-align: center;
+}
+#donate-title{
+    font-size: 36px;
+}
+#donate-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.amount-card{
+    display: flex;
+    flex-direction:row;
+    gap:50px;
+}
+.selcted-card{
+    box-sizing: border-box;
+    border: 1px solid rgb(155, 196, 235);
+    background-color: white;
+    text-align: center;
+    padding: 32px;
+    width:200px;
+    height: 100px;
+    border-radius: 16px;
+}
+.selcted-card-2{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 32px;
+    width:200px;
+    height: 100px;
+    border-radius: 16px;  
+}
+.sec-donate{
+    margin-top:32px;
+    margin-left:170px;
+}
+#subscribe{
+    background-color:blue;
+    color: white;
+}
+.Newsletter{
+    box-sizing: border-box;
+    margin-top:80px;
+    text-align: center;
+    padding: 16px 32px 16px 32px;
+    background-color: aquamarine;
+    border-radius: 16px;
+}
+.foot{
+    margin-top:80px;
+    padding: 24px 16px 24px 16px;
+    height: 220px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 16px;
+}
+#foot-title{
+    font-size: 24px;
+}
+.satellite{
+    width: 100%;
+    border: 1px solid red;
+}
+.my-container{
+    display: flex;
+}
+.jazzera-img{
+    width: fit-content;
 }
