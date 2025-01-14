@@ -46,12 +46,12 @@ h3{
 }
 .card-1{
     box-sizing: border-box;
-    background-color: rgb(141, 213, 237);
+    background-color: rgb(192, 223, 248);
     padding: 12px 8px;
     border-radius:16px;
 }
 #bttn-3{
-    background-color:rgb(134, 224, 134);
+    background-color:rgb(93, 168, 243);
     color: white;
     border-radius:4px;
     font-size: 16px;
@@ -63,7 +63,7 @@ h3{
 }
 
 #bttn-4{
-    background-color:rgb(134, 224, 134);
+    background-color:rgb(150, 243, 150);
     color: white;
     border-radius:4px;
     font-size: 16px;
@@ -74,14 +74,14 @@ h3{
 }
 .card-2{
     box-sizing: border-box;
-    background-color: rgb(142, 235, 142);
+    background-color: rgb(191, 244, 191);
     padding: 12px 8px;
     border-radius:16px;
 }
 #bttn-5{
     color: white;
     border-radius:4px;
-    background-color: rgb(223, 179, 97);
+    background-color: rgb(140, 217, 237);
     font-size: 16px;
     font-weight: 550;
     border-style: none;
@@ -90,7 +90,7 @@ h3{
 }
 .card-3{
     box-sizing: border-box;
-    background-color:rgb(246, 199, 113);
+    background-color:rgb(180, 232, 221);
     padding: 12px 8px;
     border-radius:16px;
 }
@@ -214,22 +214,23 @@ h3{
     font-size: 36px;
 }
 #donate-description{
+    justify-content: center;
     font-size: 16px;
     font-weight: 400;
 
 }
 .amount-card{
     display: flex;
-    justify-content:space-between;
+    justify-content:center; 
     flex-direction:row;
-    gap:5px;
+    gap:10px;
 }
 .selcted-card{
     box-sizing: border-box;
     border: 1px solid rgb(155, 196, 235);
     background-color: white;
     text-align: center;
-    padding: 32px 60px;
+    padding: 32px 60px; 
     border-radius: 16px;
 }
 .selcted-card-2{
@@ -244,28 +245,33 @@ h3{
 
 }
 #subscribe{
-    background-color:blue;
+    position: absolute;
+    background-color:rgb(0, 106, 80);
     color: white;
+    height:30px;
+    border-style: none;
+    border-radius:0px 4px 4px 0px  ;
 }
 .Newsletter{
     box-sizing: border-box;
+    justify-content: center;
     margin-top:80px;
     text-align: center;
-    padding: 16px 32px 16px 32px;
-    background-color: aquamarine;
+    padding:40px 20px 40px 20px ;
+    background-color: rgb(192, 241, 225);
     border-radius: 16px;
 }
 .foot{
+    padding: 24px 0px;
     margin-top:80px;
-    padding: 24px 16px 24px 16px;
-    height: 220px;
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 #foot-title{
     font-size: 24px;
+    margin-top:5PX;
 }
 .my-container{
     width: 100%;
@@ -280,9 +286,37 @@ h3{
 }
 .my-img{
     width: fit-content;
-    /* height: 100%; */
     border-radius: 16px;
 }
 .jazzera-img{
     width: fit-content;
+}
+#My-input{
+    margin-top: 24px;
+    margin-left: 100px;
+    text-align: center;
+    width: 80%;
+
+}
+input{
+    border-style: none;
+    height:30px;
+}
+.donate-button{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 24px;
+}
+#Donate-button{
+    padding: 8px 16px 8px 16px ;
+    color: white;
+    background-color:rgb(0, 106, 80);
+    border-style: none;
+    border-radius: 4px;
+}
+.my-subscribe{
+    padding:0px 24px 0px 24px  ;
+    border-radius: 4px 0px 0px 4px ;
+    width: 60%;
 }
