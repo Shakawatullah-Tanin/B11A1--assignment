@@ -47,8 +47,9 @@ h3{
 .card-1{
     box-sizing: border-box;
     background-color: rgb(192, 223, 248);
-    padding: 12px 8px;
+    padding: 12px  8px;
     border-radius:16px;
+    
 }
 #bttn-3{
     background-color:rgb(93, 168, 243);
@@ -59,7 +60,6 @@ h3{
     border-style: none;
     align-items: center;
     padding: 12px;
-    margin-top: 20px;
 }
 
 #bttn-4{
@@ -75,7 +75,7 @@ h3{
 .card-2{
     box-sizing: border-box;
     background-color: rgb(191, 244, 191);
-    padding: 12px 8px;
+    padding: 12px 8px; 
     border-radius:16px;
 }
 #bttn-5{
@@ -91,7 +91,7 @@ h3{
 .card-3{
     box-sizing: border-box;
     background-color:rgb(180, 232, 221);
-    padding: 12px 8px;
+    padding: 12px 8px; 
     border-radius:16px;
 }
 .card-container{
@@ -100,9 +100,9 @@ h3{
     grid-template-columns: 1fr 1fr 1fr;
     gap:10px;
     justify-content:space-between;
-    align-items: flex-start;
     border-style: none;
     border-radius: 15px;
+    padding: 12px 8px; 
 }
 #mrg{
     font-weight: 400;
@@ -231,9 +231,9 @@ h3{
     background-color: white;
     text-align: center;
     padding: 32px 60px; 
-    border-radius: 16px;
+    border-radius: 16px;    
 }
-.selcted-card-2{
+.selcted-card:hover{
     box-sizing: border-box;
     background-color: aquamarine;
     text-align: center;
@@ -267,7 +267,6 @@ h3{
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    /* border-radius: 16px; */
 }
 #foot-title{
     font-size: 24px;
@@ -319,4 +318,12 @@ input{
     padding:0px 24px 0px 24px  ;
     border-radius: 4px 0px 0px 4px ;
     width: 60%;
+}
+#my-foot{
+    justify-content: center;
+    display:flex;
+    gap: 16px;
+}
+button:hover{
+    background-color: darkolivegreen;
 }
